@@ -1,0 +1,23 @@
+{
+    "name": "snooze/wkhtmltopdf-binaries-jammy",
+    "description": "wkhtmltopdf binaries for Ubuntu 22.04 jammy",
+    "keywords": ["pdf", "wkhtmltopdf", "binary"],
+    "license": "MIT",
+    "homepage": "https://github.com/snooze-au/wkhtmltopdf-binaries-jammy",
+    "authors": [
+        {
+            "name": "Daniel G Adarve",
+            "email": "daniel.adarve@snooze.com.au"
+        }
+    ],
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/wkhtmltopdf-amd64"
+    ],
+    "autoload": {
+        "psr-4": {
+            "snooze\\WkHtmlToPdf\\": ""
+        }
+    },
+    "require": {}
+}
