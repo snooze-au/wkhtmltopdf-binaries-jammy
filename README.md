@@ -1,4 +1,4 @@
-# wkhtmltopdf-binaries-amd64
+# wkhtmltopdf-binaries-jammy
 This package includes symlinked wkhtmltopdf binaries for Ubuntu 22.04 from wkhtmltopdf.org as a composer package
 
 ``Current version of binaries: 0.12.6 released on June 11, 2020``
